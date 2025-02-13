@@ -10,11 +10,11 @@ export default defineConfig({
     proxy: {
      
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://hotel-booking-with-khalti-integration-2.onrender.com',
         changeOrigin: true,
       },
 // 'khalti-api':{
-//   target:'http://localhost:5000/khalti-api',
+//   target:'https://hotel-booking-with-khalti-integration-2.onrender.com/khalti-api',
 //   changeOrigin: true,
 // }
 
