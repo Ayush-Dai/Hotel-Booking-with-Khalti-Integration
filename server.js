@@ -57,5 +57,4 @@ app.post("/khalti-api", async (req, res) => {
 })
 
 
-const port = "/";
-app.listen(port, () => console.log(`server running on port ${port}`));
+app.listen("/", () => console.log(`server running on port ${port}`));
