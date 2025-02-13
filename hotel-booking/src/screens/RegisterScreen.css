@@ -1,0 +1,90 @@
+/* RegisterScreen.css */
+.register-screen {
+    height: 82.8vh;
+    width: 98.8vw;
+    background-image: url('/assets/image/regx.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #070707df;
+    /* background-color: #6c3003df; */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(3, 1, 1, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: rgba(10, 156, 149, 0.995);
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.log-in {
+    height: 82.8vh;
+    width: 98.8vw;
+    background-image: url('/assets/image/login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

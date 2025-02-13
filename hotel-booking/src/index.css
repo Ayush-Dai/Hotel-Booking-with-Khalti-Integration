@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  margin:0;
+  font-family:'Poppins';
+  /* color: black */
+}
+
+.navbar{
+  background-color: rgba(10, 156, 149, 0.539) !important;
+  padding:5px 25px;
+  border: 1px solid black;
+  border: radius 0.5em;
+  margin-bottom: 0.5px ;
+  /* margin-top: 1px ; */
+  border: none;
+
+}
+
+.nav-cent{
+display: flex;
+align-items:center;
+justify-content:center;
+list-style: none;
+margin-left: 100px;
+/* margin: 15px auto; */
+}
+
+.nav-cent1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.nav-link{
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: bold;
+font-family:'poppins';
+  gap: 10px;
+}
+
+.nav-link:hover{
+  color: #23851a !important;
+}
+
+.img{
+  height: 100px !important;
+  width: 120px !important;
+  cursor: pointer;
+  border-radius: 50%;
+}
+/* 
+.navbar-brand{
+  font-family: 'Playfair';
+  color: brown !important;
+  font-size: 23px;
+} */
+
+.navbar-nav{
+ margin-left: auto !important;
+  /* display: flex;
+  justify-content:space-between;
+  align-items: center; 
+  width: 100%;
+  list-style: none; */
+  
+}
+
+
+
+/* ..............................................................Room */
+/* Room Card Styles */
+/* Container for each room card */
+.room-card {
+  margin:15px;
+  display: flex;
+  flex-direction: column; /* Stack the image at the top and content at the bottom */
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  overflow: hidden;   /* Ensure content doesn't overflow card border */
+  height: 100%; /* Ensures it takes full height of column */
+  transition: transform 0.2s ease-in-out; /* Smooth scaling effect */
+}
+
+/* Styling for the room image */
+.room-image {
+  height: 250px; /* Fixed height for the image */
+  overflow: hidden; /* Prevent image overflow */
+}
+
+.room-image-img {
+  width: 100%; /* Image takes full width of the container */
+  height: 100%; /* Image takes full height of its container */
+  object-fit: cover; /* Maintain aspect ratio, crop if needed */
+  border-bottom: 2px solid #f0f0f0; /* Optional: border between image and content */
+}
+
+/* Styling for the room details */
+.room-details {
+  padding: 15px; /* Padding around the content */
+  background-color: #f9f9f9; /* Slightly off-white background for the text section */
+  flex: 1; /* Makes sure content section fills remaining space */
+}
+
+.room-details h1 {
+  font-size: 1.6rem; /* Room name size */
+  margin-bottom: 10px; /* Spacing below room name */
+  color: #333;
+}
+
+.room-details p {
+  font-size: 1rem; /* Text size for the details */
+  color: #555; /* Slightly lighter color for the text */
+  margin-bottom: 10px; /* Space between paragraphs */
+}
+
+.room-details button {
+  padding: 10px 20px; /* Button padding */
+  background-color: #007bff; /* Button color */
+  color: white; /* White text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.room-details button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* ............................................................. */
+/* Simple Loading Text */
+.loading-text {
+  font-size: 20px;
+  color: #3498db; /* Blue color for the text */
+  text-align: center;
+  margin-top: 50px; /* Space from the top */
+  font-weight: bold;
+}
+
+
+
+/* ......................................carousel.... */
+.bigimg{
+  height: 400px;
+  border-radius: 5px !important;
+}
+
+.btn{
+  margin:5px !important;
+}
+
+.row-book{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ..................................................... */
+.center{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* ..................................................... */
+
+
+.success {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb; /* Green border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside the box */
+  margin: 10px 0; /* Margin around the box */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center-align text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for elevation */
+}
+/* ..................................................... */
+
+.err {
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text for visibility */
+  border: 1px solid #f5c6cb; /* Red border for emphasis */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside the box */
+  margin: 10px 0; /* Space around the error message */
+  font-size: 16px; /* Font size for readability */
+  font-weight: bold; /* Bold text for prominence */
+  text-align: center; /* Center-align text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  animation: fadeIn 0.5s ease-in-out; /* Smooth fade-in effect */
+}
+
+.btnb{
+  background-color: black;
+  border: 0px solid black !important;
+  border-radius: 50px;
+}
+
+.custom-dropdown{
+  left: 40% !important;
+  width: 0px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.ant-tabs-tab {
+  font-size:5rem;
+}
+
+.ant-tabs-tab-active {
+  font-size: 10rem; /* Increase font size for the active tab */
+  background-color: brown;
+  color: brown;
+}

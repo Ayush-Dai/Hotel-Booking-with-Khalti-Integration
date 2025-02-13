@@ -1,0 +1,58 @@
+.containers {
+    padding: 20px;
+    background-color:bisque;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(198, 79, 79, 0.1);
+  }
+  
+  .top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #311c1c;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-filter,
+  .search-box,
+  .sel-type {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .date-filter .range-picker,
+  .search-box .form-control,
+  .sel-type {
+    width: 100%;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .sel-type {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .sel-type option {
+    padding: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .col-md-4 {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+  }

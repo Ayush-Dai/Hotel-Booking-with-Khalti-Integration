@@ -1,0 +1,58 @@
+.payment-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8cccc84;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: poppins, sans-serif;
+  }
+  
+  .payment-container h1 {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .payment-container p {
+    font-size: 1.2em;
+    color: #563131;
+  }
+  
+  .booking-details {
+    margin: 20px 0;
+    font-family: poppins, sans-serif;
+    padding: 20px;
+    background-color: #46b1c698;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-details h3 {
+    font-size: 1.8em;
+    color: #3b030d;
+    margin-bottom: 15px;
+  }
+  
+  .booking-details p {
+    font-size: 1.1em;
+    color: #1a0505;
+    margin: 5px 0;
+  }
+  
+  .btn-primary0 {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+  }
+  
+  .btn-primary0:hover {
+    background-color: #45a049;
+  }
